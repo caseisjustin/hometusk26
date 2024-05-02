@@ -21,7 +21,7 @@
                         Time
                     </th>
                 </tr>
-                <tr>
+                <tr class="tabrow">
                     <td>
                         
                     </td>
@@ -33,7 +33,7 @@
                     </td>
                     <td>
                         <label for="username">
-                            <button id="edit">EDIT</button>
+                            <button id="edit" onclick="todo.showdata()">EDIT</button>
                         </label>
                     </td>
                     <td>
@@ -51,7 +51,7 @@
                     <input id="time" type="date" placeholder="time" required>
                 </label>
                 <label for="username">
-                    <button id="submit">ADD</button>
+                    <button id="submit" onclick="todo.add()">ADD</button>
                 </label>
             </form>
         </div>

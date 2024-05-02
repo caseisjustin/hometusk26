@@ -99,12 +99,13 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
 }
 
 .innerpop{
     background-color: white;
     height: 250px;
-    width: 500px;
+    width: 700px;
     padding: 20px;
     border-radius: 7px;
     position: relative;
