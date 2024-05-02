@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CRUD maker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <table>
+                <tr>
+                    <th>
+                        №
+                    </th>
+                    <th>
+                        Type
+                    </th>
+                    <th>
+                        Time
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                    <td>
+    
+                    </td>
+                    <td>
+    
+                    </td>
+                    <td>
+                        <label for="username">
+                            <button id="edit">EDIT</button>
+                        </label>
+                    </td>
+                    <td>
+                        <label for="username">
+                            <button id="remove">REMOVE</button>
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <form action="">
+                <label for="type">
+                    <input id="type" type="text" placeholder="TYPE" required>
+                </label>
+                <label for="time">
+                    <input id="time" type="date" placeholder="time" required>
+                </label>
+                <label for="username">
+                    <button id="submit">ADD</button>
+                </label>
+            </form>
+        </div>
+        <div class="pop">
+            <div class="innerpop">
+                <button class="xbtn">X</button>
+                <table>
+                    <tr>
+                        <th>
+                            №
+                        </th>
+                        <th>
+                            Type
+                        </th>
+                        <th>
+                            Time
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                        
+                        </td>
+                        <td>
+                            <input class="typepop" type="text" placeholder="TYPE">
+                        </td>
+                        <td>
+                            <input class="timepop" type="date" placeholder="TIME">
+                        </td>
+                        <td>
+                            <label for="">
+                                <button id="apply">APPLY</button>
+                            </label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
